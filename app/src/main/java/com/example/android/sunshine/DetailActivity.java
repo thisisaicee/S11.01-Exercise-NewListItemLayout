@@ -108,10 +108,10 @@ public class DetailActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        mDateView = (TextView) findViewById(R.id.date);
-        mDescriptionView = (TextView) findViewById(R.id.weather_description);
-        mHighTemperatureView = (TextView) findViewById(R.id.high_temperature);
-        mLowTemperatureView = (TextView) findViewById(R.id.low_temperature);
+        mDateView = (TextView) findViewById(R.id.dateTextView);
+        mDescriptionView = (TextView) findViewById(R.id.descriptionTextView);
+        mHighTemperatureView = (TextView) findViewById(R.id.highTempTextView);
+        mLowTemperatureView = (TextView) findViewById(R.id.lowTempTextView);
         mHumidityView = (TextView) findViewById(R.id.humidity);
         mWindView = (TextView) findViewById(R.id.wind);
         mPressureView = (TextView) findViewById(R.id.pressure);
